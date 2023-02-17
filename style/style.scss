@@ -186,7 +186,7 @@ ul {
   }
 
   .card-image {
-    position: absolute;
+      position: absolute;
     top: 140vw;
     z-index: 1;
     right: 8%;
@@ -242,6 +242,12 @@ ul {
       }
     }
   }
+}
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -363,10 +369,10 @@ ul {
           a{
             display: inline-block;
             position: relative;
-            padding: 0 4rem;
+            padding: 0 2rem;
             text-decoration: none;
             color: #ffffff;
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
 
           a:after {
@@ -404,10 +410,10 @@ ul {
 
 
   main{
-
+    height: 100vh;
     .content{
       z-index: 0;
-      top: 40vh;
+      top: 25vh;
 
       .content-title{
         font-size: 4rem;
@@ -438,7 +444,7 @@ ul {
 
             img{
               position: absolute;
-              width: 53rem;
+              width: 40rem;
               right: 1.8rem;
             }
         }

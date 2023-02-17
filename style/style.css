@@ -218,6 +218,12 @@ ul li a:hover::after {
   font-weight: 700;
 }
 
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   nav .logo {
     padding: 0.5rem;
@@ -301,10 +307,10 @@ ul li a:hover::after {
   nav .nav-menu .menu a {
     display: inline-block;
     position: relative;
-    padding: 0 4rem;
+    padding: 0 2rem;
     text-decoration: none;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   nav .nav-menu .menu a:after {
     content: "";
@@ -331,9 +337,12 @@ ul li a:hover::after {
   .humburger-menu {
     display: none;
   }
+  main {
+    height: 100vh;
+  }
   main .content {
     z-index: 0;
-    top: 40vh;
+    top: 25vh;
   }
   main .content .content-title {
     font-size: 4rem;
@@ -356,7 +365,7 @@ ul li a:hover::after {
   }
   main .hero .image-1 img {
     position: absolute;
-    width: 53rem;
+    width: 40rem;
     right: 1.8rem;
   }
   main .hero .card-image {
